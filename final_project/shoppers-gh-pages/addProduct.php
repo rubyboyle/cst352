@@ -133,6 +133,16 @@ if (isset($_GET['addProduct'])) { //checks whether the form was submitted
            Set Image Url: <input type="text" name="productImage"><br>
            <input type="hidden" name="addProduct" value="<?php echo $_GET['addProduct']?>"> 
            <input type="submit" name="addProduct" value="Add Product">
+           
+                  <br><br><br>
+        <a href='admin.php' style="background-color: #7971ea; 
+                                                                            border: none; color: white;
+                                                                            padding: 10px 25px;
+                                                                            text-align: center;
+                                                                            text-decoration: none;
+                                                                            display: inline-block;
+                                                                            font-size: 16px;
+                                                                            border-radius: 4px;" >Admin Page</a>
         </form>
 
     </body>
